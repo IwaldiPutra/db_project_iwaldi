@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container" style="border-radius: 10px; background-color: rgb(221, 221, 221);">
+        <div class="row g-0 p-2 pb-4">
+            <div class="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center my-2 px-2">
+                <div style="width: 100%;">
+                    <p style="font-size: 12px;" class="mb-1">Project Name</p>
+                    <input type="text" style="width: 100%; border-radius: 5px; border: none;" class=" p-1">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center my-2">
+                <div class="mx-2" style="width: 100%;">
+                    <p style="font-size: 12px;" class="mb-1 ">Client</p>
+                    <select style="width: 100%; height: 32; border-radius: 5px; border: none;" class="p-1" name="asd"
+                        id="">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+                <div class="mx-2" style="width: 100%;">
+                    <p style="font-size: 12px;" class="mb-1 ">Status</p>
+                    <select style="width: 100%; height: 32; border-radius: 5px; border: none;" class="p-1" name="asd"
+                        id="">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 d-flex justify-content-center my-2">
+                <div class="px-2"></div>
+                <button style="width: 100%;  height: 32px;" class="mx-2 btn btn-sm btn-primary mt-auto">Search</button>
+                <button style="width: 100%;  height: 32px;" class="mx-2 btn btn-sm btn-secondary mt-auto">Clear</button>
+
+            </div>
+
+            <div
+                style="border-radius: 10px; background-color: rgb(238, 238, 238); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">
+                <table id="tProject" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Action</th>
+                            <th>Project Name</th>
+                            <th>Client</th>
+                            <th>Project Start</th>
+                            <th>Project End</th>
+                            <th>Project Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011-04-25</td>
+                            <td>$320,800</td>
+                            <td>$320,800</td>
+
+                        </tr>
+                        </tfoot>
+                </table>
+            </div>
+
+            <div class="card">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" id="nama" name="nama" class="form-control" placeholder="Nama Project">
+                    </div>
+                </form>
+            </div>
+
+            <div class="card p-2">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" id="nama" name="nama" class="form-control" placeholder="Nama Project">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <textarea type="text" id="nama" name="nama" class="form-control"
+                            placeholder="Client"></textarea>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <select style="width: 100%; height: 32; border-radius: 5px; border: none;" class="p-1"
+                            name="asd" id="">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
